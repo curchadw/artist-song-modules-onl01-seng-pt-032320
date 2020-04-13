@@ -5,7 +5,7 @@ module Findable
     end
 
     def all
-      class_variables_get(:@@artist)
+      @@artists
     end
 
     def all
