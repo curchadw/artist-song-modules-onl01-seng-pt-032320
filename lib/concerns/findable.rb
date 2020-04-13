@@ -7,7 +7,7 @@ module Findable
     def self.all
       @@artists
     end
-    # 
+    #
     # def all
     #   @@artists
     # end
