@@ -1,13 +1,13 @@
 module Findable
   module ClassMethods
 
-    # def self.all
-    #   @@artists
-    # end
-    #
-    # def self.all
-    #   @@songs
-    # end
+    def self.all
+      @@artists
+    end
+    
+    def self.all
+      @@songs
+    end
 
 
 
