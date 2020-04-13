@@ -4,7 +4,7 @@ module Findable
     def self.all
       @@artists
     end
-    
+
     def self.all
       @@songs
     end
