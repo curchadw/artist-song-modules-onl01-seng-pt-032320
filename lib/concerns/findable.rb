@@ -9,6 +9,10 @@ module Findable
     end
 
     def all
+      @@artists
+    end
+
+    def all
       class_variables_get(:@@songs)
     end
 
