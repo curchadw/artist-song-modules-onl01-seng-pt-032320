@@ -4,13 +4,13 @@ module Findable
       @@artist.select { |instance| instance.name == name }
     end
 
-    def all
+    def self.all
       @@artists
     end
-
-    def all
-      @@artists
-    end
+    # 
+    # def all
+    #   @@artists
+    # end
 
     def all
       class_variables_get(:@@songs)
@@ -20,9 +20,9 @@ module Findable
       @@songs.detect{|a| a.name == name}
     end
 
-    # def find_by_name(name)
-    #   @@artists.detect{|a| a.name == name}
-    # end
+    def find_by_name(name)
+      @@artists.detect{|a| a.name == name}
+    end
 
  end
 
